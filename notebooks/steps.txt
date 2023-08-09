@@ -1,0 +1,20 @@
+• Compute features:
+    
+    • Short-Time Fourier Transform (STFT): 
+            code:
+            S = np.abs(librosa.stft(y))
+            chroma = librosa.feature.chroma_stft(S=S, sr=sr)
+            text:
+            " In summary computes the chroma features from linear magnitude spectrograms (S = np.abs(librosa.stft(y))). It provides a more interpretable and standard representation of the audio signal, making it suitable for similarity measurement of guitar audio recordings. "
+
+    • Constant-Q chromagram:
+            code:
+            C = np.abs(librosa.cqt(y, sr=sr, fmin=librosa.note_to_hz('C2'),
+                n_bins=60 * 2, bins_per_octave=12 * 2))
+            chroma = librosa.feature.chroma_cqt(C=C, n_chroma=12, n_octaves=7)
+            text:
+            " The second option with 60 * 2 frequency bins and 12 * 2 bins per octave provides higher frequency resolution, allowing you to capture more detailed information in the CQT"
+    • 
+            
+            
+            
