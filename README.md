@@ -1,2 +1,2 @@
 # music
-this rep is all about music audio dat analysis
+this rep is all about music audio data analysis
