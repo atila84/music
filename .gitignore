@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+
+# IPython checkpoints
+.ipynb_checkpoints/
+
+# Environment
+.env
+.python-version
+
+
+# data
+data/ 
+
+
