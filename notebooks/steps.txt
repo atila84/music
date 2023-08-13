@@ -17,4 +17,10 @@
     • 
             
             
-            
+
+
+
+# Intrebari:
+
+1. Volumul conteaza?
+2. Cat de lungi sunt piesele ?
